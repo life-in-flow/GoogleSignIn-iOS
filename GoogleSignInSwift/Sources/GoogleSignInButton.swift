@@ -153,6 +153,12 @@ private extension Image {
   }
 }
 
+public extension Image {
+    static var googleSignInButtonImage: Image {
+        signInButtonImage
+    }
+}
+
 
 // MARK: - Google Font
 
