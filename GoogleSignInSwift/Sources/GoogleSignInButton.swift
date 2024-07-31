@@ -153,6 +153,7 @@ private extension Image {
   }
 }
 
+@available(iOS 13.0, macOS 10.15, *)
 public extension Image {
     static var googleSignInButtonImage: Image {
         signInButtonImage
